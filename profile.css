@@ -1,0 +1,391 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+    ;
+    height: 100vh;
+}
+
+.navbar-container {
+    background-color: rgb(172, 125, 203);
+}
+
+.image {
+    width: 4vw;
+    height: 5vh;
+}
+
+.a-content {
+    color: black;
+    font-weight: bold;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header {
+    width: 90vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 70vh;
+}
+
+.profile-image {
+    width: 10vw;
+    height: 18vh;
+    margin-top: 1rem;
+}
+
+.fields {
+    background-color: rgb(217, 213, 220);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 45vw;
+    height: 70vh;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.fields label {
+    width: 10vw;
+}
+
+.fields input {
+    width: 30vw;
+    height: 6vh;
+    background-color: rgb(238, 235, 241);
+    border: none;
+    padding: 0 1rem;
+}
+
+.input-div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.update-button {
+    width: 40vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.update-button button {
+    width: 10vw;
+    height: 7vh;
+    border: none;
+    background-color: rgb(172, 125, 203);
+    color: white;
+}
+
+.update-button button:hover {
+    background-color: rgb(151, 143, 157);
+    color: black;
+}
+
+.all-blogs-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90vw;
+    gap: 2vw;
+    padding-top: 1rem;
+}
+
+.blog-header {
+    width: 85vw;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(224, 222, 223);
+    width: 27vw;
+    height: 70vh;
+    text-align: center;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+.blog-image {
+    width: 25vw;
+    height: 30vh;
+}
+
+.delButton{
+    width: 15vw;
+    height: 6vh;
+    background-color: rgb(111, 53, 53);
+    color: white;
+    border: none;
+}
+
+@media only screen and (max-width: 600px){
+    .profile-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .header {
+        width: 90vw;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 2rem 0;
+    }
+    
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+        height: 70vh;
+    }
+    
+    .profile-image {
+        width: 14vw;
+        height: 14vh;
+        margin-top: 1rem;
+    }
+    
+    .fields {
+        background-color: rgb(217, 213, 220);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 80vw;
+        height: 70vh;
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    }
+    
+    .fields label {
+        width: 18vw;
+    }
+    
+    .fields input {
+        width: 55vw;
+        height: 6vh;
+        background-color: rgb(238, 235, 241);
+        border: none;
+        padding: 0 1rem;
+    }
+    
+    .input-div {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .update-button {
+        width: 70vw;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .update-button button {
+        width: 20vw;
+        height: 7vh;
+        border: none;
+        background-color: rgb(172, 125, 203);
+        color: white;
+    }
+    
+    .update-button button:hover {
+        background-color: rgb(151, 143, 157);
+        color: black;
+    }
+    
+    .all-blogs-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 90vw;
+        gap: 2vw;
+        padding-top: 1rem;
+    }
+    
+    .blog-header {
+        width: 85vw;
+        height: 10vh;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .blog {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgb(224, 222, 223);
+        width: 90vw;
+        height: 70vh;
+        text-align: center;
+        box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    }
+    
+    .blog-image {
+        width: 65vw;
+        height: 30vh;
+    }
+    
+    .delButton{
+        width: 30vw;
+        height: 6vh;
+        background-color: rgb(111, 53, 53);
+        color: white;
+        border: none;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px){
+    .profile-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .header {
+        width: 90vw;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 2rem 0;
+    }
+    
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+        height: 70vh;
+    }
+    
+    .profile-image {
+        width: 10vw;
+        height: 12vh;
+        margin-top: 1rem;
+    }
+    
+    .fields {
+        background-color: rgb(217, 213, 220);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 80vw;
+        height: 70vh;
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    }
+    
+    .fields label {
+        width: 18vw;
+    }
+    
+    .fields input {
+        width: 55vw;
+        height: 6vh;
+        background-color: rgb(238, 235, 241);
+        border: none;
+        padding: 0 1rem;
+    }
+    
+    .input-div {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .update-button {
+        width: 70vw;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .update-button button {
+        width: 20vw;
+        height: 7vh;
+        border: none;
+        background-color: rgb(172, 125, 203);
+        color: white;
+    }
+    
+    .update-button button:hover {
+        background-color: rgb(151, 143, 157);
+        color: black;
+    }
+    
+    .all-blogs-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 90vw;
+        gap: 2vw;
+        padding-top: 1rem;
+    }
+    
+    .blog-header {
+        width: 85vw;
+        height: 10vh;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .blog {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgb(224, 222, 223);
+        width: 44vw;
+        height: 70vh;
+        text-align: center;
+        box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    }
+    
+    .blog-image {
+        width: 30vw;
+        height: 30vh;
+    }
+    
+    .delButton{
+        width: 18vw;
+        height: 6vh;
+        background-color: rgb(111, 53, 53);
+        color: white;
+        border: none;
+    }    
+}

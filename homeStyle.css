@@ -1,0 +1,188 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+    height: 100vh;
+}
+
+.navbar-container {
+    background-color: rgb(172, 125, 203);
+}
+
+.image {
+    width: 4vw;
+    height: 5vh;
+}
+
+.a-content {
+    color: black;
+    font-weight: bold;
+}
+
+.home-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.blog-header {
+    width: 85vw;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.all-blogs-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 85vw;
+    gap: 2vw;
+    padding-top: 1rem;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(224, 222, 223);
+    width: 27vw;
+    height: 70vh;
+    text-align: center;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.blog-image {
+    width: 25vw;
+    height: 30vh;
+}
+
+.delButton{
+    width: 15vw;
+    height: 6vh;
+    background-color: rgb(111, 53, 53);
+    color: white;
+    border: none;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .home-container {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .blog-header {
+        width: 85vw;
+        height: 10vh;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .all-blogs-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 85vw;
+        gap: 2vw;
+        padding-top: 1rem;
+    }
+
+    .blog {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgb(224, 222, 223);
+        width: 85vw;
+        height: 70vh;
+        text-align: center;
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    }
+
+    .blog-image {
+        width: 65vw;
+        height: 40vh;
+    }
+
+    .delButton{
+        width: 30vw;
+        height: 6vh;
+        background-color: rgb(111, 53, 53);
+        color: white;
+        border: none;
+    }
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+    .home-container {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .blog-header {
+        width: 85vw;
+        height: 10vh;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .all-blogs-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 85vw;
+        gap: 2vw;
+        padding-top: 1rem;
+    }
+
+    .blog {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgb(224, 222, 223);
+        width: 40.5vw;
+        height: 70vh;
+        text-align: center;
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    }
+
+    .blog-image {
+        width: 30vw;
+        height: 30vh;
+    }
+
+    .delButton{
+        width: 18vw;
+        height: 6vh;
+        background-color: rgb(111, 53, 53);
+        color: white;
+        border: none;
+    }
+
+}
